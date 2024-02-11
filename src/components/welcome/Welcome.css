@@ -1,0 +1,324 @@
+.bineAiVenit {
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    right: 180px;
+    background-color: rgb(255, 255, 252);
+    width: 80%;
+    height: 600px;
+    z-index: 50;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.3);
+}
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    outline: none;
+    cursor: pointer;
+  }
+  input[type="checkbox"]:checked {
+    background-color: #ff0000;
+    border-color: #000;
+  }
+.caractereDeAles {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.caracter {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: auto;
+    display: flex;
+}
+.caracter:active {
+    border: 1px solid red;
+}
+
+.borduraRosie {
+    border: solid 1px solid;
+}
+.startGame {
+    margin-left: 500px;
+}
+.catePuncteMaiTrebue {
+    border: 1px solid black;
+    padding: 6px;
+}
+.atentie {
+    margin-left: 500px;
+}
+.inputNickname {
+    margin-left: 360px;
+}
+
+
+/****************************************  RESPONSIVE  ****************************************/
+
+@media (max-width: 1740px) {
+    .bineAiVenit {
+        left: 160px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .bineAiVenit {
+        left: 140px;
+    }
+}
+@media (max-width: 1420px) {
+    .bineAiVenit {
+        left: 120px;
+    }
+}
+@media (max-width: 1360px) {
+    .bineAiVenit {
+        left: 100px;
+    }
+    .inputNickname {
+        margin-left: 260px;
+    }
+    .atentie {
+        margin-left: 380px;
+    }
+    .startGame {
+        margin-left: 400px;
+    }
+}
+@media (max-width: 1160px) {
+    .bineAiVenit {
+        left: 100px;
+    }
+    .inputNickname {
+        margin-left: 200px;
+    }
+    .atentie {
+        margin-left: 280px;
+    }
+    .startGame {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 960px) {
+    .bineAiVenit {
+        left: 80px;
+    }
+    .atentie {
+        margin-left: 220px;
+    }
+    .startGame {
+        margin-left: 240px;
+    }
+    .inputNickname {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 860px) {
+    .bineAiVenit {
+        left: 80px;
+    }
+    .atentie {
+        margin-left: 180px;
+    }
+    .startGame {
+        margin-left: 200px;
+    }
+    .inputNickname {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 760px) {
+    .bineAiVenit {
+        left: 80px;
+    }
+    .atentie {
+        margin-left: 150px;
+    }
+    .startGame {
+        margin-left: 170px;
+    }
+    .inputNickname {
+        margin-left: 60px;
+    }
+}
+@media (max-width: 700px) {
+    .bineAiVenit {
+        left: 80px;
+    }
+    .atentie {
+        margin-left: 130px;
+    }
+    .startGame {
+        margin-left: 154px;
+    }
+    .inputNickname {
+        margin-left: 120px;
+        top: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .creazaNick {
+        margin-top: 10px;
+        width: 260px;
+    }
+}
+
+@media (max-width: 630px) {
+    .bineAiVenit {
+        left: 70px;
+    }
+    .atentie {
+        margin-left: 100px;
+    }
+    .startGame {
+        margin-left: 130px;
+    }
+    .inputNickname {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 580px) {
+    .bineAiVenit {
+        left: 60px;
+    }
+    .atentie {
+        margin-left: 80px;
+    }
+    .startGame {
+        margin-left: 110px;
+    }
+    .inputNickname {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 540px) {
+    .bineAiVenit {
+        left: 50px;
+    }
+    .atentie {
+        margin-left: 70px;
+    }
+    .startGame {
+        margin-left: 100px;
+    }
+    .inputNickname {
+        margin-left: 70px;
+    }
+ 
+}
+
+@media (max-width: 500px) {
+    .bineAiVenit {
+        left: 40px;
+        top: 40px;
+    }
+    .atentie {
+        margin-left: 40px;
+    }
+    .startGame {
+        margin-left: 80px;
+    }
+    .inputNickname {
+        margin-left: 50px;
+    }
+    .profilFati {
+        margin-bottom: -10px;
+    }
+    .vienis {
+        margin-bottom: -10px;
+    }
+    .chooses {
+        margin-bottom: -10px;
+    }
+}
+@media (max-width: 440px) {
+    .bineAiVenit {
+        left: 40px;
+        top: 40px;
+    }
+    .atentie {
+        margin-left: 10px;
+    }
+    .startGame {
+        margin-left: 60px;
+    }
+    .inputNickname {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 410px) {
+    .bineAiVenit {
+        left: 40px;
+        top: 30px;
+    }
+    .atentie {
+        margin-left: 4px;
+    }
+    .startGame {
+        margin-left: 30px;
+    }
+    .inputNickname {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    .bineAiVenit {
+        left: 40px;
+        top: 30px;
+    }
+    .atentie {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .startGame {
+        margin-left: 30px;
+    }
+    .inputNickname {
+        margin-left: 30px;
+    }
+    .smileImg {
+        display: none;
+    }
+    .creazaNick {
+        width: 140px;
+        margin-left: 20px;
+    }
+    .textInputInfo {
+        font-size: 12px;
+    }
+    .profilFati {
+        font-size: 8px;
+    }
+}
+@media (max-width: 350px) {
+    .startGame {
+        margin-left: 24px;
+    }
+    .inputNickname {
+        margin-left: 24px;
+    }
+}
+@media (max-width: 336px) {
+    .startGame {
+        margin-left: 14px;
+    }
+    .inputNickname {
+        margin-left: 14px;
+    }
+}
+

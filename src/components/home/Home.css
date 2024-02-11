@@ -1,0 +1,197 @@
+.game_image {
+    width: 500px;
+    height: 280px;
+}
+.game_imageResponsive {
+    width: 300px;
+    height: 180px;
+}
+.play_btn:hover {
+    background-color: rgb(255, 25, 25);
+    font-size: 18px;
+}
+.steaua {
+    width: 20px;
+    height: 20px;
+}
+.burduz {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.condiziPuncte {
+    font-weight: 600;
+}
+.mobileLinkGame {
+    display: none;
+}
+.pentruMobile {
+    display: none;
+}
+.infoPointForMobile {
+    display: none;
+}
+
+/****************************************  RESPONSIVE  ****************************************/
+
+@media (max-width: 1500px) {
+    .paragrafJoc {
+        font-size: 14px;
+    }
+}
+@media (max-width: 1200px) {
+    .paragrafJoc {
+        font-size: 12px;
+    }
+    .hiddenCategorie {
+        display: none;
+    }
+}
+@media (max-width: 1040px) {
+    .game_image {
+        width: 300px;
+        height: 160px;
+    }
+    .paragrafJoc {
+        font-size: 18px;
+    }
+    .play_btn {
+        position: absolute;
+        bottom: 10px;
+        left: 80px;
+    }
+}
+@media (max-width: 900px) {
+    .paragrafJoc {
+        font-size: 14px;
+    }
+}
+@media (max-width: 800px) {
+    .game_image {
+        width: 260px;
+        height: 140px;
+    }
+    .paragrafJoc {
+        font-size: 12px;
+    }
+}
+@media (max-width: 760px) {
+    .responsivos {
+        display: flex;
+        flex-direction: column;
+    }
+    .game_image {
+        width: 440px;
+        height: 240px;
+    }
+    .play_btn {
+        position: relative;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 680px) {
+    .game_image {
+        width: 360px;
+        height: 180px;
+    }
+    .play_btn {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 620px) {
+    .noForMobile {
+        display: none;
+    }
+    .mobileLinkGame {
+        display: block;
+    }
+    .play_btn {
+        margin-left: 100px;
+    }
+    .paragrafMobile {
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .play_btn {
+        margin-left: 50px;
+    }
+}
+@media (max-width: 420px) {
+    .play_btn {
+        margin-left: 50px;
+    }
+}
+@media (max-width: 400px) {
+    .play_btn {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 380px) {
+    .play_btn {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 360px) {
+    .play_btn {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 340px) {
+    .play_btn {
+        margin-left: -2px;
+    }
+}
+
+@media (max-width: 900px) {
+    .jocuriDisponibile {
+        margin-left: -20px;
+    }
+}
+@media (max-width: 840px) {
+    .jocuriDisponibile {
+        margin-left: -60px;
+    }
+}
+@media (max-width: 780px) {
+    .jocuriDisponibile {
+        margin-left: -100px;
+    }
+}
+@media (max-width: 660px) {
+    .jocuriDisponibile {
+        margin-left: -120px;
+    }
+}
+@media (max-width: 600px) {
+    .jocuriDisponibile {
+        margin-left: -160px;
+    }
+}
+@media (max-width: 520px) {
+    .jocuriDisponibile {
+        margin-left: -180px;
+    }
+}
+@media (max-width: 490px) {
+    .noMobileJocuriDisponibile {
+       display: none;
+    }
+    .pentruMobile {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .infoPoinNoMobile {
+        display: none;
+    }
+    .infoPointForMobile {
+        display: block;
+    }
+}
+
+
+
+
+  

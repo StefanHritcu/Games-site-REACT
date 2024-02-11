@@ -1,0 +1,161 @@
+.totalPuncte {
+    margin-left: 520px;
+}
+.punctee {
+    display: block;
+    margin-left: 320px;
+}
+.bubuMobile {
+    display: none;
+}
+
+/****************************************  RESPONSIVE  ****************************************/
+
+@media(max-width: 1470px) {
+    .puncteleTaleHidden {
+        display: none;
+    }
+    .infoRed {
+        margin-right: 80px;
+    }
+    .totalPuncte {
+        margin-left: 480px;
+    }
+    .punctee {
+        margin-left: 190px;
+    }
+}
+@media(max-width: 1320px) {
+    .totalPuncte {
+        margin-left: 380px;
+    }
+    .punctee {
+        margin-left: 190px;
+    }
+}
+@media(max-width: 1200px) {
+    .totalPuncte {
+        margin-left: 420px;
+    }
+    .punctee {
+        margin-left: 130px;
+    }
+}
+@media(max-width: 1140px) {
+    .totalPuncte {
+        margin-left: 380px;
+    }
+    .punctee {
+        margin-left: 110px;
+    }
+}
+@media(max-width: 1040px) {
+    .totalPuncte {
+        margin-left: 320px;
+    }
+    .punctee {
+        margin-left: 90px;
+    }
+}
+@media(max-width: 940px) {
+    .totalPuncte {
+        margin-left: 280px;
+    }
+}
+@media(max-width: 880px) {
+    .totalPuncte {
+        margin-left: 220px;
+    }
+    .punctee {
+        margin-left: 70px;
+    }
+}
+@media(max-width: 800px) {
+    .totalPuncte {
+        margin-left: 320px;
+    }
+    .punctee {
+        display: none;
+    }
+    .erMussHidden {
+        display: none;
+    }
+    .infoRed {
+        margin-right: 180px;
+    }
+}
+@media(max-width: 780px) {
+    .totalPuncte {
+        margin-left: 280px;
+    }
+}
+@media(max-width: 780px) {
+    .totalPuncte {
+        margin-left: 220px;
+    }
+}
+@media(max-width: 670px) {
+    .totalPuncte {
+        margin-left: 180px;
+    }
+}
+@media(max-width: 640px) {
+    .totalPuncte {
+        margin-left: 160px;
+    }
+    .bubuSettete {
+        display: none;
+    }
+    .bubuMobile {
+        display: block;
+    }
+    .infoRed {
+        margin-right: 220px;
+        font-size: 12px;
+        min-width: 300px;
+    }
+}
+@media(max-width: 570px) {
+    .infoRed {
+        min-width: 320px;
+        margin-right: 180px;
+    }
+}
+@media(max-width: 516px) {
+    .infoRed {
+        min-width: 340px;
+        margin-right: 160px;
+    }
+    .superMobile {
+        margin-left: -30px;
+    }
+}
+@media(max-width: 486px) {
+    .superMobile {
+        margin-left: -60px;
+    }
+}
+@media(max-width: 450px) {
+    .superMobile {
+        margin-left: -90px;
+    }
+    .anotherSuperMobile {
+        margin-left: 34px;
+    }
+}
+@media(max-width: 400px) {
+    .anotherSuperMobile {
+        margin-left: 54px;
+    }
+    .infoRed {
+        min-width: 280px;
+    }
+}
+@media(max-width: 360px) {
+    .anotherSuperMobile {
+        margin-left: 70px;
+    }
+    .infoRed {
+        min-width: 260px;
+    }
+}

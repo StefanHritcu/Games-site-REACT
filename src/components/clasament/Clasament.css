@@ -1,0 +1,18 @@
+.mobileVersion {
+    display: none;
+}
+
+
+
+
+
+/****************************************  RESPONSIVE  ****************************************/
+
+@media (max-width: 700px) {
+    .noMobileVersion {
+        display: none;
+    }
+    .mobileVersion {
+        display: block;
+    }
+}
